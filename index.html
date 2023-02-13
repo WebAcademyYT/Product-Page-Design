@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Design | Web Academy</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons (Font Awesome v5) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="cart">
+        <div class="cart-header">
+            <div class="go-back"><i class="fas fa-chevron-left"></i></div>
+            <h1 class="cart-title">My Cart</h1>
+        </div>
+
+        <div class="cart-body">
+            <!-- Item 1 -->
+            <div class="cart-item">
+                <div class="item-img" style="background-image: url('Images/hamburger.png');">
+                    <!-- <a href="https://www.flaticon.com/free-icons/hamburger" 
+                        title="hamburger icons">Hamburger icons created by Freepik - Flaticon
+                    </a> -->
+                </div>
+                
+                <div class="item-details">
+                    <div class="item-name">Hamburger</div>
+                    <div class="item-price">$5.50</div>
+                </div>
+
+                <div class="item-input">
+                    <span class="input-btn"><i class="fas fa-minus"></i></span>
+                    <input type="number" min="1" value="1">
+                    <span class="input-btn"><i class="fas fa-plus"></i></span>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="cart-item">
+                <div class="item-img" style="background-image: url('Images/sushi.png');">
+                    <!-- <a href="https://www.flaticon.com/free-icons/sushi" 
+                        title="sushi icons">Sushi icons created by justicon - Flaticon
+                    </a> -->
+                </div>
+                <div class="item-details">
+                    <div class="item-name">Sushi</div>
+                    <div class="item-price">$10.00</div>
+                </div>
+
+                <div class="item-input">
+                    <span class="input-btn"><i class="fas fa-minus"></i></span>
+                    <input type="number" min="1" value="2">
+                    <span class="input-btn"><i class="fas fa-plus"></i></span>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="cart-item">
+                <div class="item-img" style="background-image: url('Images/chicken-leg.png');">
+                    <!-- <a href="https://www.flaticon.com/free-icons/chicken" 
+                        title="chicken icons">Chicken icons created by Freepik - Flaticon
+                    </a> -->
+                </div>
+                <div class="item-details">
+                    <div class="item-name">Chicken</div>
+                    <div class="item-price">$7.10</div>
+                </div>
+
+                <div class="item-input">
+                    <span class="input-btn"><i class="fas fa-minus"></i></span>
+                    <input type="number" min="1" value="1">
+                    <span class="input-btn"><i class="fas fa-plus"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <button class="pay-btn">Pay $22.60</button>
+        </div>
+    </div>
+</body>
+</html>
